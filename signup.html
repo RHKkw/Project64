@@ -31,19 +31,19 @@
 
     <form action="/tacos">
         <p>
-            <input id="username" type="email" placeholder="휴대폰 번호 또는 이메일 주소">
+            <input id="useremail" type="email" placeholder="휴대폰 번호 또는 이메일 주소" required>
         </p>
         <p>
-            <input id="username" type="text" placeholder="성명">
+            <input id="username" type="text" placeholder="성명" required>
         </p>
         <p>
-            <input id="username" type="text" placeholder="사용자 이름">
+            <input id="nickname" type="text" placeholder="사용자 이름" required>
         </p>
         <p>
-            <input id="password" type="password" placeholder="비밀번호">
+            <input id="password" type="password" placeholder="비밀번호" required>
         </p>
         <p>
-            <input id="password" type="password" placeholder="비밀번호 확인">
+            <input id="passwordcheck" type="password" placeholder="비밀번호 확인" required>
         </p>
         <select name="생년" id="year-select">
             <option value="">-생년-</option>
@@ -141,10 +141,10 @@
             <option value="31">31</option>
         </select>
         <div>
-        <button class="signup button" type="button">
+            <button class="signup button" type="submit">
             Sign up
-        </button>
+            </button>
         </div>
-        </form>
+    </form>
 </body>
 </html>
