@@ -34,16 +34,16 @@
             <input id="useremail" type="email" placeholder="휴대폰 번호 또는 이메일 주소" required>
         </p>
         <p>
-            <input id="username" type="text" placeholder="성명" required>
+            <input id="username" type="text" placeholder="성명" required minlength="2" maxlength="4">
         </p>
         <p>
-            <input id="nickname" type="text" placeholder="사용자 이름" required>
+            <input id="nickname" type="text" placeholder="사용자 이름" required minlength="2" maxlength="8">
         </p>
         <p>
-            <input id="password" type="password" placeholder="비밀번호" required>
+            <input id="password" type="password" placeholder="비밀번호" required minlength="8">
         </p>
         <p>
-            <input id="passwordcheck" type="password" placeholder="비밀번호 확인" required>
+            <input id="passwordcheck" type="password" placeholder="비밀번호 확인" required minlength="8">
         </p>
         <select name="생년" id="year-select">
             <option value="">-생년-</option>
