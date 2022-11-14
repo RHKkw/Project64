@@ -4,26 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
     <title>CookTap</title>
 </head>
 <body>
     <hr>
     <div style="color: goldenrod;">
-    <h1>CookTap</h1>
+    <h1 class="text-center letter-spacing font-size">CookTap</h1>
     </div>
 </body>
     <form action="/tacos">
         <p>
-            <input id="username" type="text" placeholder="휴대폰 번호 또는 이메일 주소">
+            <input id="username" class="center" type="text" placeholder="휴대폰 번호 또는 이메일 주소">
         </p>
         <P>
-            <input type="password" placeholder="비밀번호" id="password">
+            <input id="password" type="password" placeholder="비밀번호">
         </P>
-        <button class="login button" type="submit" name="q">
+        <button type="submit" name="q">
             로그인
         </button>
         <form action="/signup.html">
-        <button class="signup button" type="button">
+        <button type="button">
             회원가입
         </button>
         </form>
