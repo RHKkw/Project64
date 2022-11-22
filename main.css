@@ -1,9 +1,45 @@
 .text-center {
     text-align: center;
 }
+
 .letter-spacing {
     letter-spacing: 7px;
 }
+
 .font-size {
     font-size: 40px;
+}
+
+.transition-move {
+    border-radius: 15px;
+    padding-top: 25px;
+    height: 50px;
+    width: 150px;
+    color: white;
+    background-color: hsl(212, 88%, 47%);
+    margin 20px 0;
+    transition: all 2s;
+}
+
+.transition-move:hover {
+    margin-left: 500px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.transition-timing {
+    border-radius: 15px;
+    padding-top: 25px;
+    height: 50px;
+    width: 150px;
+    color: white;
+    background-color: hsl(155, 76%, 49%);
+    margin 20px 0;
+    transition-timing-function: ease-out;
+}
+
+.transition-timing:hover {
+    margin-left: 500px;
+    background-color: white;
+    border-radius: 50%;
 }
