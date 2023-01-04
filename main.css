@@ -100,3 +100,22 @@
 .fixed-bottom {
     top: 700px;
 }
+
+/* 반응형 화면 구성 */
+
+h1 {
+    font-size: 6em;
+    text-align: center;
+}
+nav {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
+}
+ul, li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    max-width: 50%;
+    justify-content: space-evenly;
+}
